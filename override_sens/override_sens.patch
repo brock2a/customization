@@ -8,7 +8,7 @@ index 250f71b..442ae5d 100644
  final class InsulinSensitivityScalingTableViewCell: UITableViewCell {
  
 -    private let allScaleFactorPercentages = Array(stride(from: 10, through: 200, by: 10))
-+    private let allScaleFactorPercentages = Array(stride(from: 50, through: 200, by: 5))
++    private let allScaleFactorPercentages = Array(stride(from: 10, through: 200, by: 10))
  
      @IBOutlet private weak var titleLabel: UILabel!
      
